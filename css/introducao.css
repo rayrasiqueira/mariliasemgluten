@@ -1,0 +1,71 @@
+@import "./variaveis.css";
+
+label {
+    display: flex;
+}
+
+.introducao {
+    align-items: center;
+    display: grid;
+    gap: 6.25rem;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    max-width: 75rem;
+    padding: 0 1.25rem;
+}
+
+.introducao h1 {
+    display: grid;
+    font-family: var(--fonte-titulo);
+    font-size: 4rem;
+    justify-content: center;
+    line-height: 1.125;
+    margin-bottom: 1.875rem;
+}
+
+.introducao p {
+    color: var(--fonte-gray);
+    font-family: var(--fonte-padrao);
+    font-size: 1.1rem;
+}
+
+.introducao a {
+    background-color: var(--fonte-main);
+    border-radius: 1.875rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5rem;
+    margin-top: 1.875rem;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    width: 5rem;
+}
+
+.introducao a:hover {
+    background-color: var(--hover);
+    border: 0.125rem solid var(--fonte-gray);
+    color: var(--fonte-gray);
+}
+
+.index-image {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 950px) {
+    .introducao {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-columns: auto;
+    }
+
+    .introducao h1 {
+        font-size: 3rem;
+    }
+    .introducao img {
+        display: none;
+    }
+}

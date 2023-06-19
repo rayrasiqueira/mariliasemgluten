@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSG - Contato</title>
+    <meta name="description" content="Site informativo sobre onde encontrar locais em Marília-SP que vendem alimentos sem glúten.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="./imagens/logo-black.png" width="100px" alt="Logo do Site">
+            <nav aria-label="primaria">
+                <ul class="header__menu">
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./estabelecimentos.html">Estabelecimentos</a></li>
+                    <li><a href="./contato.html"><strong>Contato</strong></a></li>
+                    <li><a href="./sobre-dc.html">Sobre a DC</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="principal">
+            <h4>Cadastre seu estabelecimento no Marília Sem Glúten</h3>
+                <h3>Quer cadastrar seu estabelecimento no Marília Sem Glúten para que outras pessoas o conheçam?</h3>
+            </h4>
+            <div class="cards">
+                <div class="card">
+                    <div class="img-container">
+                        <img src="./imagens/growth.png" alt="Vendedora entregando sacola à cliente">
+                    </div>
+                    <h5>Cresça</h5>
+                    <p>Cadastrando-se, seu negócio pode alcançar seu público-alvo mais facilmente</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="./imagens/community.png" alt="Pessoas reunidas">
+                    </div>
+                    <h5>Comunidade</h5>
+                    <p>Ajude a comunidade de celíacos a crescer em Marília e gerar inclusão alimentar</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img src="./imagens/cross-contamination.png" alt="Duas pessoas cozinhando">
+                    </div>
+                    <h5>Atenção</h5>
+                    <p>É importante saber se sua cozinha é livre de contaminação cruzada</p>
+                </div>
+            </div>
+        </section>
+        <section id="form">
+            <div class="text">
+                <h2>Digite seu nome e melhor e-mail. <br>Entraremos em contato.</h2>
+            </div>
+            <div class="subscription">
+                <form action="">
+                    <div class="input">
+                        <input type="text" id="nome" placeholder="Nome" required>
+                        <label id="labelNome" for="nome"></label>
+                    </div>
+                    <div class="input">
+                        <input type="email" id="email" placeholder="E-mail" required>
+                        <label id="labelEmail" for="email"></label>
+                    </div>
+                    <button onclick="enviar()">enviar!</button>
+                </form>
+            </div>
+        </section>
+        <section id="extra">
+            <div>
+                <img src="./imagens/contato-bottom.png" alt="">
+            </div>
+            <div>
+                <h3>É sobre bem estar</h3>
+                <h4>Informação gera poder e autonomia</h4>
+                <p>Ao saber quais estabelecimentos possuem opções sem glúten, o celíaco pode avaliar as opções e escolher onde quer se alimentar.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+</html>

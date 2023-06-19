@@ -1,0 +1,212 @@
+body {
+    background-color: #FBF5F1;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #5F4236;
+    height: 100vh;
+    margin: 0rem;
+}
+
+h1, h2, h3, p, ul, li, a {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.intro__dc {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem 1.25rem;
+}
+
+.sobre {
+    border-bottom: 2px solid #C6B6AB;
+    border-top: 2px solid #C6B6AB;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 60px 0;
+}
+
+.sobre-definicao {
+    align-self: center;
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-definicao h2 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.sobre-definicao p {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.sobre-img {
+    display: flex;
+    align-items: center;
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+.sobre-img img {
+    border-radius: 15px;
+}
+
+.sintomas {
+    margin: 60px auto;
+    max-width: 1200px;
+}
+
+.sintomas h2 {
+    font-size: 1.5rem;
+    margin: 0 10px 20px 10px;
+}
+
+.sintomas-container {
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sintomas-item {
+    flex: 1 1 186px;
+    margin: 10px;
+}
+
+.dor {
+    border-top: 8px solid #c6b6ab8c;
+}
+
+.mentais {
+    border-top: 8px solid #c6b6ab8c;
+}
+
+.pele {
+    border-top: 8px solid #c6b6ab8c;
+}
+
+.dor h3 {
+    background: linear-gradient(to bottom, #e8e5e374, #FBF5F1);
+    font-size: 1.2rem;
+    padding: 60px 20px;
+}
+
+.mentais h3 {
+    background: linear-gradient(to bottom, #e8e5e374, #FBF5F1);
+    font-size: 1.2rem;
+    padding: 60px 20px;
+}
+
+.pele h3 {
+    background: linear-gradient(to bottom, #e8e5e374, #FBF5F1);
+    font-size: 1.2rem;
+    padding: 60px 20px;
+}
+
+.sintomas-secundarios {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    max-width: 1200px;
+}
+
+.sintomas-secundarios-item {
+    flex: 1 1 350px;
+    margin: 20px 10px;
+}
+
+.sintomas-secundarios-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.sintomas-secundarios-item h3::before {
+    background: #E7BD8F;
+    content: '';
+    display: inline-block;
+    height: 14px;
+    margin-right: 10px;
+    width: 7px;
+}
+
+.contaminacao {
+    border-top: 2px solid #C6B6AB;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    max-width: 1200px;
+}
+
+.contaminacao-item {
+    flex: 1 1 350px;
+    margin: 20px 10px;
+}
+
+.contaminacao-item h1 {
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 625px) {
+    .sobre {
+        display: grid;
+        align-items: center;
+    }
+    .sobre-img img {
+        display: none;
+    }
+    .sobre-definicao h2 {
+        display: flex;
+        justify-content: center;
+    }
+    .sintomas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sintomas-container {
+        flex-direction: column;
+        width: 50%;
+    }
+    .contaminacao-item h1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sintomas-container {
+        width: 100%;
+    }
+}

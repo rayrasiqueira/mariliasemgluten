@@ -1,0 +1,24 @@
+@import "./variaveis.css";
+
+body {
+    background-color: var(--background);
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+    height: 100vh;
+    margin: 0rem;
+}
+
+h1, h2, h3 {
+    margin: 0rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

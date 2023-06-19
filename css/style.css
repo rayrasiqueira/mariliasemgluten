@@ -1,0 +1,19 @@
+@import "./global.css";
+@import "./header.css";
+@import "./variaveis.css";
+@import "./introducao.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;900&display=swap');
+
+:root {
+  --background: #FBF5F1;
+  --card: #c6b6abc0;
+  --fonte-gray: #545454;
+  --fonte-light: #E3E3E1;
+  --fonte-main: #5F4236;
+  --fonte-padrao: 'Open Sans', sans-serif;
+  --fonte-titulo: 'Playfair Display', serif;
+  --fonte-white: #FEFDFD;
+  --fundo-alt: #E7BD8F;
+  --hover: #c6b6ab8c;
+  --setas: #C6B6AB;
+}
